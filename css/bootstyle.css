@@ -1,0 +1,256 @@
+.headergrid{
+    background-color: rgb(89, 199, 175);
+    border: 2px solid white;
+    color: white;
+}
+
+.rnn {
+    width: 20px;
+    height: 15px;
+    padding: 0px 5px 0px 0px;
+
+}
+
+.bag {
+    background-color:black;
+}
+
+.up {
+    background-color: rgb(89, 199, 175);
+    width: 100vw;
+    height: 7vh;
+}
+
+.use {
+    position: relative;
+    padding: 15px 15px 15px 25px;
+    border-right: 2px solid white;
+    color: rgb(255, 255, 255);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 15px;
+
+}
+
+#rl img {
+    width: 20px;
+    padding: 0px 5px 0px 20px;
+    height: 15px;
+
+}#moll {
+    position: relative;
+    left: 100px;
+
+}
+
+#rl {
+    border-left: 2px solid white;
+
+}
+
+#rn {
+    border-right: 0px;
+    padding-left: 210px;
+
+}
+
+#na {
+    position: relative;
+    left: 150px;
+    word-spacing: 2rem;
+
+}
+
+#na a {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgba(15, 4, 4, 0.986);
+    text-decoration: none;
+}
+
+.button {
+    display: inline-block;
+    border-radius: 18px;
+    background-color: #d8215e;
+    border: none;
+    color: #FFFFFF;
+    text-align: top;
+    font-size: 16px;
+    padding: 5px;
+    padding-bottom: 30px;
+    width: 200px;
+    height: 11px;
+    vertical-align: middle;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+}
+
+.button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+    border-top: 90px;
+
+
+}
+
+.button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+.button:hover span {
+    padding-right: 15px;
+}
+
+.button:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+
+.banner {
+    background-color: rgb(255, 255, 255);
+    width: 100vw;
+    height: 3vh;
+    padding: 20px;
+    position: relative;
+    float: right;
+
+}
+
+#subner {
+    position: relative;
+    top: -20px;
+    padding: 1px 15px 165px 105px;
+    color: rgb(255, 255, 255);
+    margin-bottom: 80px;
+}
+
+.man {
+    word-spacing: 0px;
+}
+
+
+.maincontainer{
+    width: 100%;
+    margin-top: 80px;
+    padding-top: 10px;
+    background-color:rgba(156, 154, 154,0.1)
+}
+
+.formcontainer{
+    width: 100%;
+    margin: 10px;
+    margin-right: 20px;
+    padding:10px;
+    background-color:white
+}
+
+
+.form-control{
+    padding-top: 0;
+    padding-bottom: 0;
+    height: 40px;
+    background-color: #f4f4f4;
+    font-size: 11px;
+    color: #252525;
+    border-width: ;
+    border-color: rgba(255,255,255,0);
+    border-radius: 25px;
+}
+
+.form-label{
+    font-size: 12px;
+}
+
+.form-check{
+    height: 30px;
+    background-color: #f4f4f4;
+    
+}
+
+.card-img-top{
+    height: 50px;
+    width: 70px;
+}
+
+.card-text{
+    font-family: 'oxygen', 'san sarif';
+    font-size: 30px;
+    color: rgb(6, 61, 45);
+}
+
+.card-img-top1{
+    height: 300px;
+    width: 200px;
+    margin-bottom: 20px;
+    margin-top: 50px;
+    position: relative;
+    margin-left: 30px;
+}
+
+.btn{
+    margin: 10px 0px 0px 80px;
+    display: inline-block;
+    border-radius: 18px;
+    background-color: #d8215e;
+    border: none;
+    color: #FFFFFF;
+    text-align: top;
+    font-size: 12px;
+    padding: 15px;
+    padding-bottom: 25px;
+    width: 100px;
+    height: 2px;
+    vertical-align: middle;
+    transition: all 0.5s;
+    cursor: pointer;
+    
+
+}
+
+.btnum{
+    margin: 10px 0px 0px 80px;
+    color: #d8215e;
+    font-size: 10px;
+}
+
+.card{
+    background-color: rgba(173, 216, 230, 0.5);
+    height: fit-content;
+    width: fit-content;
+}
+
+.form, .col-4{
+    margin-right: 30px;
+    margin-top: 20px;
+    width: fit-content;
+    background-color: rgba(196, 194, 194, 0.1);
+}
+
+.form-container, .row{
+    margin-right: 30px;
+}
+
+.container{
+    padding:20px;
+    margin: 20px;
+}
+
+.container, .row{
+    padding: 20px;
+    margin: 20px;
+}
+.container, .col-12{
+    text-align: center;
+}
+
+.cardimg{
+    width: 20px;
+    height: 15px;
+    padding: 0px 5px 0px 0px;
+}
